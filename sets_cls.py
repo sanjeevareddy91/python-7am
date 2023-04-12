@@ -61,13 +61,13 @@ a={1,2,65,14}
 
 b={43,12,14,1}
 
-print(a.union(b))
-print(a|b)
+# print(a.union(b))
+# print(a|b)
 
 # intersection() -- common elements between both the sets..
 
-print(a.intersection(b))
-print(a&b)
+# print(a.intersection(b))
+# print(a&b)
 
 # difference:
 
