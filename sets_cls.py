@@ -41,7 +41,7 @@ a.remove(21)
 # print(a.discard(55))
 # print(a)
 
-# a.remove(21)
+a.remove(21)
 
 # pop() - it will remove the first element from the set..
 
@@ -61,13 +61,13 @@ a={1,2,65,14}
 
 b={43,12,14,1}
 
-# print(a.union(b))
-# print(a|b)
+print(a.union(b))
+print(a|b)
 
 # intersection() -- common elements between both the sets..
 
-# print(a.intersection(b))
-# print(a&b)
+print(a.intersection(b))
+print(a&b)
 
 # difference:
 
@@ -127,4 +127,9 @@ print(a.issubset(b))
 # b={6,7,8,9}
 
 # print(a.isdisjoint(b))
+
+
+
+
+
 
